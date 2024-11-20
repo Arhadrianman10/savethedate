@@ -1,0 +1,49 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+  }
+  
+  .header-logo {
+    max-width: 20%;
+    margin-bottom: 1rem; /* Espacio entre la imagen y el texto */
+  }
+  
+  .header-subtitle {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.5rem; /* Espacio entre este texto y el nombre */
+  }
+  
+  .header-title {
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .header-date-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto; /* Centrar horizontalmente en el contenedor padre */
+  }
+  
+  .header-day,
+  .header-month,
+  .header-time {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .header-date {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+  

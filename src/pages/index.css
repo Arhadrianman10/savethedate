@@ -1,23 +1,93 @@
-
-
-body {
-  font-family: 'Bebas Neue', sans-serif !important;
-  line-height: 20px !important;
-  font-size: 23px !important;
-  font-weight: 400 !important;
+/* Estilo general para toda la aplicación */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Estilo para el div de carga */
-.loadingScreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+html, body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+  margin: 0;
+}
+
+.background-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa todo el alto de la ventana */
+}
+
+/* Estilos para el Header */
+header {
+  position: relative; /* Hace que el header permanezca fijo al hacer scroll */
+  top: 2;
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
+  background-color: #fff; /* Fondo blanco para evitar superposición visual */
+  width: 100%; /* Ocupa todo el ancho */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para separar visualmente */
+  padding: 15px 20px; /* Espaciado interno */
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Estilos para el MainContent */
+main {
+  position: relative;
+  flex: 1; /* Permite que el contenido principal ocupe el espacio restante */
+  margin-top: 20px; /* Separación del Header */
+  padding: 20px;
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto flotante */
+}
+
+/* Estilos para el Countdown */
+.countdown {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #007bff; /* Color azul */
+  font-weight: bold;
+}
+
+/* Estilos para el FooterPolaroids */
+footer {
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-polaroids {
   display: flex;
   justify-content: center;
-  align-items: center;
-  z-index: 1000; /* Asegúrate de que esté por encima de todo */
+  gap: 10px; /* Espaciado entre elementos */
+  margin-top: 20px;
 }
-	
+
+.footer-polaroids img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #fff; /* Borde blanco */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Asegura un diseño responsivo */
+@media (max-width: 768px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .footer-polaroids img {
+    width: 80px;
+    height: 80px;
+  }
+}

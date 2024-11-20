@@ -1,0 +1,19 @@
+.countdown-container {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .countdown-item {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .countdown-label {
+    font-size: 1rem;
+  }
+  
