@@ -1,0 +1,514 @@
+	
+	
+	@media (max-width: 1000px) {
+		.neonBox {
+			width: 90% !important;
+		}
+		table.dataTable tbody th, table.dataTable tbody td {
+			padding: 0px 0px !important;
+		}
+		.smaller-kda-text {
+			font-size: 0.9rem !important;
+		}
+		.top-left {
+			font-size: 23px !important;
+			line-height: 23px !important;
+		}
+	}
+	
+	
+	@media (max-width: 600px) {
+		.neonBox {
+			width: 98% !important;
+		}
+		table.dataTable tbody th, table.dataTable tbody td {
+			padding: 0px;
+
+		}
+		th {
+			letter-spacing: 0.7px !important;
+			font-size: 15px !important;
+			line-height: 45px !important;
+		}
+		td {
+			letter-spacing: 0.7px !important;
+			font-size: 15px !important;
+			line-height: 25px !important;
+		}
+		.table>:not(caption)>*>* {
+			padding: 0px !important;
+		}
+	
+		.invocador-name {
+			letter-spacing: 1px !important;
+			font-size: 18px !important;
+			line-height: 16px !important;
+		}
+		.campeon-name {
+			letter-spacing: 1px !important;
+			font-size: 18px !important;
+			line-height: 16px !important;
+		}
+		.ultimo-pick {
+			letter-spacing: 1px !important;
+			font-size: 18px !important;
+			line-height: 16px !important;
+		}
+		.invocador-rank {
+			letter-spacing: 0.7px !important;
+			font-size: 11px !important;
+			line-height: 10px !important;
+		}
+		.numbers {
+			letter-spacing: 0.7px !important;
+			font-size: 11px !important;
+			line-height: 10px !important;
+		}
+		.container {
+			width: 99% !important;
+			padding-right: 0px !important;
+    		padding-left: 0px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+		}
+		.span-no-invocador-left{
+			display: none !important;
+		}
+		.span-no-invocador-left-picks{
+			display: none !important;
+		}
+		.span-default-right {
+			margin-left: 0px !important;
+		}
+		.span-default-right>img{
+			margin-right: 0px !important;
+			width: 10px  !important;
+		}
+		.span-invocador-right {
+			margin-right: 2.1em !important;
+		}
+		.span-invocador-right-picks {
+			margin-right: 1.1em !important;
+		}
+		.span-campeon-right {
+			margin-right: 2.1em !important;
+		}
+		.span-campeon-right-picks {
+			margin-right: 1.1em !important;
+		}
+		/* Estilos para la imagen */
+		.image-container {
+			max-width: 2em !important;
+			margin-left: 2px;
+		}
+		
+		.image-campeon-container {
+			max-width: 2em !important;
+			margin-left: 2px;
+		}
+		.invocador-container {
+			padding: 0px 0px !important;
+		}
+
+		.campeon-container {
+			padding: 0px 0px !important;
+		}
+		.nav-link{
+			text-align: left;
+			line-height: 9px!important;
+			letter-spacing: .6px!important;
+			font-size: 17px!important;
+		}
+		.span-default-left-bans {
+			margin-right: 5.5em;
+		}
+	}
+	
+	
+	.span-default-left {
+		margin-right: 5px;
+		display: inline-block;
+	}
+
+	.span-default-left-bans {
+		margin-right: 5.5em;
+		display: inline-block;
+	}
+	
+	.span-invocador-left {
+		display: none;
+	}
+	
+	.span-no-invocador-left {
+		display: inline-block;
+	}
+	
+	.span-invocador-left-picks {
+		margin-left: 2.4em;
+	}
+	
+	.span-no-invocador-left-picks {
+		display: inline-block;
+	}
+	.span-no-invocador-left-bans {
+		display: inline-block;
+	}
+	.span-campeon-left {
+		display: none;
+	}
+	
+	.span-no-campeon-left {
+		display: inline-block;
+	}
+	
+	.span-campeon-left-picks {
+		margin-left: 2.4em;
+	}
+	
+	.span-no-campeon-left-picks {
+		display: inline-block;
+	}
+
+	.span-default-right {
+		margin-left: 5px;
+		display: inline-block;
+	}
+	
+	.span-invocador-right {
+		margin-right: 3.1em;
+	}
+	
+	.span-no-invocador-right {
+		margin-right: 0px;
+	} 
+
+	.span-invocador-right-picks {
+		margin-right: 0em;
+	}
+
+	.span-campeon-right {
+		margin-right: 3.1em;
+	}
+	
+	.span-no-campeon-right {
+		margin-right: 0px;
+	} 
+
+	.span-campeon-right-picks {
+		margin-right: 0em;
+	}
+	
+	
+	.span-no-invocador-right-picks {
+		margin-right: 0px;
+	} 
+
+	.span-no-campeon-right-picks {
+		margin-right: 0px;
+	} 
+	
+	#partidasTable td, #partidasTable th {
+		text-align: center;
+		vertical-align: middle;
+	}
+	.table{
+		margin-bottom: 0px !important;
+	}
+	.table-container {
+		margin: 0 auto;
+		max-width: 99%;
+		background-color: #212529;
+	}
+	
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+		max-width: 99%;
+	}
+	
+	table.dataTable thead .sorting {
+		background-image: none;
+	}
+	
+	
+	table.dataTable tbody th, table.dataTable tbody td {
+		padding: 0px;
+	}
+	
+	.container {
+		width: 70%;
+		padding-top: 40px;
+		padding-bottom: 70px;
+	}
+
+
+.tbody, td, tfoot, th, thead, tr{
+	border: 0 solid !important;
+	border-top: 0 solid !important;
+}
+.table>:not(:first-child) {
+	border-top: 0 solid !important;
+}	
+	/* Clase para el contenedor con efecto neón */
+.neonBox {
+	background-color: transparent !important;
+    width: 80%;
+    border-radius: 1.5rem !important;
+    animation: colorShift 30s infinite linear;
+    box-shadow: 0 0 .2rem #000000,
+                0 0 .2rem #000000,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+}       
+
+/* Animación para el cambio gradual de colores */
+@keyframes colorShift {
+    0%, 100% { box-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000, 0 0 5px #b0ae76da, 0 0 10px #b0ae76da, 0 0 15px #b0ae76da, 0 0 20px #b0ae76da; }
+    20% { box-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000, 0 0 5px #83b076da, 0 0 10px #83b076da, 0 0 15px #83b076da, 0 0 20px #83b076da; }
+    40% { box-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000, 0 0 5px #76b09eda, 0 0 10px #76b09eda, 0 0 15px #76b09eda, 0 0 20px #76b09eda; }
+    60% { box-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000, 0 0 5px #7676b0da, 0 0 10px #7676b0da, 0 0 15px #7676b0da, 0 0 20px #7676b0da; }
+    80% { box-shadow: 0 0 1px #000000, 0 0 2px #000000, 0 0 3px #000000, 0 0 5px #b076a2da, 0 0 10px #b076a2da, 0 0 15px #b076a2da, 0 0 20px #b076a2da; }
+}
+
+/* 
+Estilos para la columna de invocadores
+*/
+
+/* Estilos para el contenedor principal */
+.component-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* Estilos para la imagen */
+.image-container {
+  flex: 1 1;
+  text-align: center;
+  max-width: 2.5em ;
+  position: relative; /* Posición relativa para el contenedor */
+}
+
+.image-container img {
+  border-radius: 50%; /* Redondea la imagen */
+  width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.image-container-picks {
+	flex: 1 1;
+	text-align: center;
+	max-width: 2.5em ;
+	position: relative; /* Posición relativa para el contenedor */
+	overflow: hidden; /* Oculta cualquier contenido que se desborde, para mantener los bordes redondeados */
+	margin-left: 20px;
+  }
+  
+  .image-container-picks img {
+	border-radius: 50%; /* Redondea la imagen */
+	width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+	height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+.image-campeon-container {
+	flex: 1 1;
+	text-align: center;
+	max-width: 2.5em ;
+	position: relative; /* Posición relativa para el contenedor */
+	overflow: hidden; /* Oculta cualquier contenido que se desborde, para mantener los bordes redondeados */
+  }
+  
+.image-campeon-container img {
+width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+/* Estilos para el invocador y ranking */
+.invocador-container {
+  flex: 1 1;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.campeon-container {
+	flex: 1 1;
+	text-align: center;
+	padding: 0 10px;
+}
+
+.invocador-name {
+  letter-spacing: 2px;
+  font-size: 36px;
+  line-height: 36px;
+  cursor: pointer;
+}
+.campeon-name {
+	letter-spacing: 2px;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.ultimo-pick {
+	flex: 1 1;
+	letter-spacing: 2px;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.invocador-rank {
+	letter-spacing: 1px;
+	font-size: 0.9rem;
+	color: rgba(255, 255, 255, 0.55);
+}
+
+/* Estilos para los valores numéricos */
+.numbers-container {
+  flex: 1 1;
+  text-align: center;
+  max-width: 7em !important;
+}
+
+.numbers {
+	font-size: 1.5rem;
+	color: #8a9cb7;
+}
+
+.oscurecer td {
+	box-shadow: none  !important;
+	border: none;
+	background-color: #0F1011 !important;
+	color: #4C4C4C  !important;
+}
+
+.oscurecer td .invocador-rank {
+	color: #313131;
+}
+
+.oscurecer td .numbers {
+	color: #292E37;
+}
+
+.oscurecer td .ordenClass {
+	display: none;
+}
+
+.oscurecer .image-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Capa oscura con transparencia */
+  border-radius: 50%; /* Redondea los bordes del pseudo-elemento como la imagen */
+  z-index: 1;
+}
+
+
+	/* Definir la animación para difuminar el borde */
+	@keyframes fadeBorder1 {
+		0%, 100% {
+			box-shadow: 0 0 10px 3px rgba(221, 221, 10, 0.55), 0 0 10px 8px rgba(221, 221, 10, 0.2);
+		}
+		50% {
+			box-shadow: 0 0 10px 3px rgba(221, 221, 10, 0.2), 0 0 10px 5px rgba(221, 221, 10, 0.1);
+
+		}
+	}
+
+	/* Aplicar la animación */
+	.bordeTop1 .component-container .image-container img {
+		border: 3px groove rgba(221, 221, 10, 0.6);
+		box-shadow: 0 0 10px 3px rgba(221, 221, 10, 0.55);
+		animation: fadeBorder1 3s infinite; /* Animación solo para el borde creado con box-shadow */
+		}
+
+		@keyframes fadeBorder2 {
+		0%, 100% {
+			box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.55), 0 0 10px 8px rgba(255, 255, 255, 0.2);
+		}
+		50% {
+			box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2), 0 0 10px 5px rgba(255, 255, 255, 0.1);
+
+		}
+	}
+
+	/* Aplicar la animación */
+	.bordeTop2 .component-container .image-container img {
+	border: 3px groove rgba(255, 255, 255, 0.6);
+	box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.55);
+	animation: fadeBorder2 3s infinite; /* Animación solo para el borde creado con box-shadow */
+	}
+
+	@keyframes fadeBorder3 {
+	0%, 100% {
+		box-shadow: 0 0 10px 3px rgba(255, 162, 0, 0.55), 0 0 10px 8px rgba(255, 162, 0, 0.2);
+	}
+	50% {
+		box-shadow: 0 0 10px 3px rgba(255, 162, 0, 0.2), 0 0 10px 5px rgba(255, 162, 0, 0.1);
+
+	}
+	}
+
+	/* Aplicar la animación */
+	.bordeTop3 .component-container .image-container img {
+	border: 3px groove rgba(255, 162, 0, 0.6);
+	box-shadow: 0 0 10px 3px rgba(255, 162, 0, 0.55);
+	animation: fadeBorder3 3s infinite; /* Animación solo para el borde creado con box-shadow */
+	}
+
+	@keyframes fadeBorder4 {
+	0%, 100% {
+	box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.55), 0 0 10px 8px rgba(220, 57, 57, 0.2);
+	}
+	50% {
+		box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.2), 0 0 10px 5px rgba(220, 57, 57, 0.1);
+
+	}
+	}
+
+	/* Aplicar la animación */
+	.bordeTop4 .component-container .image-container img {
+	border: 3px groove rgba(220, 57, 57, 0.6);
+	box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.55);
+	animation: fadeBorder4 3s infinite; /* Animación solo para el borde creado con box-shadow */
+	}
+	
+	@keyframes fadeBorder5 {
+	0%, 100% {
+		box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.55), 0 0 10px 8px rgba(220, 57, 57, 0.2);
+	}
+	50% {
+		box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.2), 0 0 10px 5px rgba(220, 57, 57, 0.1);
+
+	}
+	}
+
+	/* Aplicar la animación */
+	.bordeTop5 .component-container .image-container img {
+	border: 3px groove rgba(220, 57, 57, 0.6);
+	box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.55);
+	animation: fadeBorder5 3s infinite; /* Animación solo para el borde creado con box-shadow */
+	}
+
+	@keyframes fadeBorder6 {
+		0%, 100% {
+		box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.55), 0 0 10px 8px rgba(220, 57, 57, 0.2);
+	}
+	50% {
+		box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.2), 0 0 10px 5px rgba(220, 57, 57, 0.1);
+
+	}
+	}
+
+	/* Aplicar la animación */
+	.bordeTop6 .component-container .image-container img {
+		border: 3px groove rgba(220, 57, 57, 0.6);
+	box-shadow: 0 0 10px 3px rgba(220, 57, 57, 0.55);
+	animation: fadeBorder6 3s infinite; /* Animación solo para el borde creado con box-shadow */
+	}
+

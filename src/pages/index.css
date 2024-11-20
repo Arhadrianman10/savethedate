@@ -1,0 +1,23 @@
+
+
+body {
+  font-family: 'Bebas Neue', sans-serif !important;
+  line-height: 20px !important;
+  font-size: 23px !important;
+  font-weight: 400 !important;
+}
+
+/* Estilo para el div de carga */
+.loadingScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Asegúrate de que esté por encima de todo */
+}
+	

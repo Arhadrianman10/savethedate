@@ -1,0 +1,62 @@
+@media (max-width: 1000px) {
+
+}
+
+
+@media (max-width: 600px) {
+
+	.nav-item{
+		letter-spacing: 0.6px !important;
+		font-size: 17px !important;
+		line-height: 9px !important;
+	}
+	.custom-select{
+		letter-spacing: 0.6px !important;
+		font-size: 17px !important;
+		line-height: 16px !important;
+	}
+	.progress {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+}
+
+.custom-select {
+		background-color: transparent;
+		color: rgba(255, 255, 255, 0.5);
+		border: none;
+		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		background-image: url('data:image/svg+xml;utf8,<svg fill="rgba(255, 255, 255, 0.5)" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+		background-repeat: no-repeat;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		background-position-x: 100%;
+		background-position-y: 50%;
+		padding-right: 23px;
+}
+
+.custom-select option {
+		background: rgba(33,37,41); /* Fondo de las opciones */
+		color:rgba(255, 255, 255, 0.5); /* Color del texto */
+}
+		
+
+.custom-select:focus {
+		outline: none;
+}
+
+.custom-select:hover {
+		color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(255,255,255,.55) !important;
+}
+
+.clickable-brand {
+    cursor: pointer;
+}

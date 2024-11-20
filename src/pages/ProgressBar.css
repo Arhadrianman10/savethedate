@@ -1,0 +1,32 @@
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 20px;
+  width: 300px;
+  margin: auto;
+}
+
+.progress-value {
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 14px;
+  transition: width 3s ease; /* Animación suave para el cambio de ancho */
+}
+
+.progress-value-number {
+  text-align: center;
+  margin-top: -2px;
+}
+
+@media (min-width: 1000px) {
+  .progress {
+      margin-top: 6px;
+      margin-right: 15px;
+  }
+}
